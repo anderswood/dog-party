@@ -1,0 +1,111 @@
+body {
+  font-family: "Raleway", sans-serif;
+  max-width: 850px;
+  min-width: 550px;
+}
+nav {
+  background: #92E0E5;
+}
+nav img {
+  padding: 7px 4px 4px 25px;
+}
+nav ul {
+  float: right;
+  padding: 5px 15px 0px 0px;
+  margin: 0px;
+}
+.nav-links {
+  padding: 7px;
+  font-size: 15px;
+  display: inline-block;
+}
+.nav-links:hover {
+  background: #3F8DA7;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+header {
+  background-image: url("images/park.jpg");
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  padding-bottom: 10px;
+}
+header h1 {
+  padding: 30px 0px 20px 0px;
+  font-size: 25px;
+  margin: 0px;
+
+}
+header img {
+  border-radius: 110px;
+  border: 3px solid #5499B1;
+  margin: auto;
+}
+button {
+  display: block;
+  margin: 10px auto 20px auto;
+  border: 3px solid #5499B1;
+  background-color: #ffffff;
+  color: #5499B1;
+  font-size: 15px;
+  padding: 2px;
+}
+button:hover {
+  padding: 5px 10px;
+  background: #3F8DA7;
+  color: white;
+}
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.triptik {
+  margin: 20px 0px;
+}
+.panel {
+  float: left;
+  display: block;
+  width: 31.333333%;
+  margin: auto 1%;
+  text-align: center;
+}
+h2,p {
+  font-size: 15px;
+  color: #000000;
+}
+.rounded-dogs {
+  border-radius: 75px;
+  border: 2px solid #5499B1;
+  margin-bottom: 15px;
+}
+footer {
+  background: #5499B1;
+  clear: both;
+  text-align: center;
+  height: 130px;
+}
+h3 {
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 10px;
+  margin: 0px;
+}
+footer ul {
+  padding: 0px;
+  margin: 0px;
+}
+.footer-links {
+  display: inline-block;
+  padding: 5px 10px;
+}
+.footer-links:hover{
+  background: #3F8DA7;
+  color: #FFFFFF;
+  padding: 5px 10px;
+}
+footer a {
+  font-size: 13px;
+  text-decoration: underline;
+}
